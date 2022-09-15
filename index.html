@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Intro-section-with-dropdown-navigation-main</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img src="./images/logo.svg" alt=""></a>
+        <!-- Offcanvas Sidebar -->
+            <div class="offcanvas offcanvas-end" id="demo">
+                <div class="offcanvas-header">
+                    <h1 class="offcanvas-title"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                                    Features
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            <span class="mx-2"><img src="./images/icon-todo.svg" alt=""></span>
+                                            Todo List
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            <span class="mx-2"><img src="./images/icon-calendar.svg" alt=""></span>
+                                            Calendar
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            <span class="mx-2"><img src="./images/icon-reminders.svg" alt=""></span>
+                                            Reminders
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            <span class="mx-2"><img src="./images/icon-planning.svg" alt=""></span>
+                                            Planning
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                                    Company
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            History
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            Our Team
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="dropdown-item">
+                                            Blog
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Careers
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                About
+                            </a>
+                        </li>
+                        <button class="btn text-muted login" type="button">Login</button>
+                        <button class="btn text-muted register" type="button">Register</button>
+                    </ul>
+                </div>
+            </div>
+        <!-- Button to open the offcanvas sidebar -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo"><span class="navbar-toggler-icon"></span></button>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="hero-img">
+            <img src="" alt="" class="img-fluid hero-desk">
+        </div>
+        <h1 class="text-break">Make remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+        <button type="button" class="btn btn-dark learn-more">Learn More</button>
+        <div class="container databiz">
+            <img src="./images/client-databiz.svg" alt="" class="mx-2">
+            <img src="./images/client-audiophile.svg" alt="" class="mx-2">
+            <img src="./images/client-meet.svg" alt="" class="mx-2">
+            <img src="./images/client-maker.svg" alt="" class="mx-2">
+        </div>
+    </div>
+</body>
+</html>

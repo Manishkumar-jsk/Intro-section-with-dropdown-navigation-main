@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+    font-size:18px;
+
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size:42px;
+    margin-top:40px;
+}
+p{
+    text-align: center;
+    font-weight:500;
+    font-size:18px;
+    color:hsl(0,0%,41%);
+    padding-left:50px;
+    padding-right:50px;
+}
+a{
+    text-decoration:none;
+    display: block;
+    color:hsl(0,0%,41%);
+}
+a:hover{
+    color:black;
+}
+.hero{
+    margin-top:10px;
+}
+.learn-more{
+    margin: auto;
+    display:block;
+}
+.databiz{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.dropdown-menu{
+    border:none;
+}
+.dropdown-item{
+    color:hsl(0,0%,41%);
+}
+.dropdown-item:hover{
+    color:black;
+}
+.hero-desk{
+    content: url("./images/image-hero-mobile.png");
+}
+/*----------------------------------Desktop-----------------------------------*/
+@media screen and (min-width:1440px){
+    .hero{
+        margin-right:220px;
+    }
+    .hero-img{
+        padding-bottom:5px;
+    }
+    .hero-desk{
+        content: url("./images/image-hero-desktop.png");
+    }
+    .hero-img img{
+        float:right;
+        width:470px;
+        height:500px;
+    }
+    h1{
+        text-align: start;
+        font-size:65px;
+        padding-left:170px;
+        padding-right:717px;
+        margin-top:80px;
+    }
+    p{
+        text-align: start;
+        margin-top:20px;
+        padding-left:170px;
+        padding-right:700px;
+    }
+    .learn-more{
+        margin-top:30px;
+        margin-left:170px;
+    }
+    .databiz{
+        margin-top:60px;
+        margin-left:140px;
+    }
+    .nav-item{
+        padding:15px
+    }
+    .login{
+        background-color:white;
+        border-radius:40px;
+        margin-left:500px;
+        padding-left:45px;
+        padding-right:45px;
+    }
+    .register{
+        background-color:white;
+        border-radius:40px;
+        padding-left:40px;
+        padding-right:40px;
+    }
+}
